@@ -1,0 +1,120 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7c942; /* خلفية ذهبية */
+    color: #333;
+    text-align: center;
+}
+
+header {
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.5); /* خلفية شبه شفافة */
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 50px 20px;
+}
+
+main h2 {
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-top: 20px;
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.right-align {
+    text-align: right;
+    direction: rtl;
+    max-width: 800px;
+    margin: auto;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.5); /* خلفية شبه شفافة */
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+section {
+    margin: 20px 0;
+}
+
+section h3 {
+    font-size: 2em;
+    color: #444;
+}
+
+section p, section ul {
+    font-size: 1.2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #555;
+}
